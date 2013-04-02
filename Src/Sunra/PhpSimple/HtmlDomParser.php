@@ -2,7 +2,7 @@
 // say me who add "О╩©" into start of file?
 // Becouse of this 3 symbol before <?php - php get error
 // i think it Sublime Text
-
+namespace Sunra\PHPSimple;
 require 'simplehtmldom_1_5' . DIRECTORY_SEPARATOR . 'simple_html_dom.php';
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
