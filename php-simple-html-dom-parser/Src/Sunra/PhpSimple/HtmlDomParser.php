@@ -5,6 +5,8 @@
 
 require 'simplehtmldom_1_5'.DIRECTORY_SEPARATOR.'simple_html_dom.php';
 
+use Symfony\Component\HttpKernel\Bundle\Bundle;
+
 class HtmlDomParser extends Bundle {
 	
     static public function file_get_html() {
